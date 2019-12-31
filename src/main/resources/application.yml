@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+################ 点播线程池配置 ################
+threadPoolSowTask:
+  pool:
+    corePoolSize: 5
+    maximumPoolSize: 15
+    keepAliveTime: 1
+    workQueue: 20
